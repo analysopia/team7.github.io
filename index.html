@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team 7  Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Team 7</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile_AR">Arpita</a></li>
+          <li><a href="#profile_SD">Soumyajit</a></li>
+          <li><a href="#profile_PB">Pramit</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Team 7</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile_AR" onclick="toggleMenu()">Arpita</a></li>
+          <li><a href="#profile_SD" onclick="toggleMenu()">Soumyajit</a></li>
+          <li><a href="#profile_PB" onclick="toggleMenu()">Pramit</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile_AR">
+      <div class="section__pic-container">
+        <img src="./assets/arpita_pro.jpg" alt="Arpita  profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm the Team Leader</p>
+        <h1 class="title">Arpita Roy</h1>
+        <p class="section__text__p2">Backend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Modified.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/arpita-roy-6a7771231/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ArpitaRoy454'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-picAB_AR.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher<br />Frontend Development Teamcenter Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon" 
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Computer Science and Engineering </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I recently pursuing my B.Tech Degree from College of Engineering and Management, Kolaghat in Computer Science and Engineering. While there, I learned a lot of concept in Data Structure and Algorithm, Database Management System, Software Engineering and more. I’ve worked hard in my education and now I’m ready to apply my knowledge into Practical. Currently I am working on Teamcenter software which is related to PLM (Propduct Lifecycle Management), I’m looking to grow myself and get better opportunity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="profile_SD">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Soumyajit profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Soumyajit Das</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Soumyajit_Das.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/soumyajit-das-ba1063273'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/SoumyajitDas10'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic_4.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher<br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon" 
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Computer Science and Engineering </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I recently pursuing my B.Tech Degree from College of Engineering and Management, Kolaghat in Computer Science and Engineering. While there, I learned a lot of theory in subjects like Data Structure and Algorithm, Database management system, Software Engineering and more. I’ve worked hard in my education and now I’m ready to apply my knowledge into Practice. While I don’t have any real-life work Now, I’m looking to leverage everything I’ve learned in collage and get some hands-on work experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>    
+    <section id="profile_PB">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic-pr.png" alt="pramit profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pramit Baneerjee</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Pramit_Banerjee_Resume_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/pramit-banerjee-51642620b'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic_pr_abt.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher<br />Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon" 
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Computer Science and Engineering </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I recently pursuing my B.Tech Degree from College of Engineering and Management, Kolaghat in Computer Science and Engineering. While there, I learned a lot of theory in subjects like Data Structure and Algorithm, Database management system, Software Engineering and more. I’ve worked hard in my education and now I’m ready to apply my knowledge into Practice. While I don’t have any real-life work Now, I’m looking to leverage everything I’ve learned in collage and get some hands-on work experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse Our Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Default_create_a_image_for_a_website_where_a_futurestic_ai_ro_0.jpg"
+                alt="Project 1 "
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One - Youtube Comment Analysis </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/analysopia'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/analysopia'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:analysopiaweb@gmail.com">analysopiaweb@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/arpita-roy-6a7771231/">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:royarpita618@gmail.com">royarpita618@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/arpita-roy-6a7771231/">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:soumyajitdas064@gmail.com">soumyajitdass123@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/soumyajit-das-ba1063273">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:pramitbanerjee7575@gmail.com">pramitbanerjee7575@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/pramit-banerjee-51642620b">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#profile_AR">Arpita</a></li>
+            <li><a href="#profile_SD">Soumyajit</a></li>
+            <li><a href="#profile_PB">Pramit</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright  #0000; 2023- 24  Team 7. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
