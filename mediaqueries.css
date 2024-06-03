@@ -58,10 +58,18 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 175vh;
   }
-  #profile {
-    height: 83vh;
+  #profile_AR {
+    height: 100vh;
+    margin-bottom: 0;
+  }
+  #profile_SD {
+    height: 100vh;
+    margin-bottom: 0;
+  }
+  #profile_PB {
+    height: 100vh;
     margin-bottom: 0;
   }
   article {
